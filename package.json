@@ -1,0 +1,35 @@
+{
+  "name": "umbraci-gulp-pages",
+  "version": "0.1.0",
+  "description": "static web app workflow",
+  "keywords": [
+    "umbraci-gulp-pages",
+    "zce"
+  ],
+  "repository": "zce/umbraci-gulp-pages",
+  "license": "MIT",
+  "author": "UmbraCi <umbraci@qq.com> (https://github.com/UmbraCi)",
+  "main": "lib/index.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "lint": "standard --fix",
+    "prepare": "npm run lint"
+  },
+  "renovate": {
+    "extends": [
+      "zce"
+    ]
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "16.0.4"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  }
+}
