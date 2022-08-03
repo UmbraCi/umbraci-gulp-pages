@@ -6,7 +6,7 @@
     "umbraci-gulp-pages",
     "zce"
   ],
-  "repository": "zce/umbraci-gulp-pages",
+  "repository": "umbraci/umbraci-gulp-pages",
   "license": "MIT",
   "author": "UmbraCi <umbraci@qq.com> (https://github.com/UmbraCi)",
   "main": "lib/index.js",
@@ -41,7 +41,8 @@
     "gulp-sass": "5",
     "gulp-swig": "^0.9.1",
     "gulp-uglify": "^3.0.2",
-    "gulp-useref": "^3.1.6"
+    "gulp-useref": "^3.1.6",
+    "node-sass": "^7.0.1"
   },
   "devDependencies": {
     "standard": "16.0.4"

@@ -6,4 +6,5 @@ process.argv.push(process.cwd()) // 指定项目工作目录为当前命令行�
 process.argv.push('--gulpfile')
 process.argv.push(require.resolve('..'))
 
+
 require('gulp/bin/gulp')
