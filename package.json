@@ -10,7 +10,7 @@
   "license": "MIT",
   "author": "UmbraCi <umbraci@qq.com> (https://github.com/UmbraCi)",
   "main": "lib/index.js",
-  "bin":"bin/umbraci-gulp-pages.js",
+  "bin": "bin/umbraci-gulp-pages.js",
   "files": [
     "lib"
   ],
@@ -38,7 +38,7 @@
     "gulp-if": "^3.0.0",
     "gulp-imagemin": "^6.1.0",
     "gulp-load-plugins": "^2.0.1",
-    "gulp-sass": "^4.0.2",
+    "gulp-sass": "5",
     "gulp-swig": "^0.9.1",
     "gulp-uglify": "^3.0.2",
     "gulp-useref": "^3.1.6"
